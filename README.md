@@ -6,7 +6,7 @@ Another Slider is a Yahoo Weather App inspired jQuery slider plugin. Unlike many
 
 Basic Setup
 	
-	```html
+```html
 	<!-- Add CSS inside the head of your document -->
 	<link rel="stylesheet" href="css/another-slider.min.css">
 	
@@ -16,11 +16,11 @@ Basic Setup
 	<script>
 		$(".slider").anotherSlider();
 	</script>
-	```
+```
 
 HTML
 
-	```html
+```html
 	<div class="slider">
 		<div class="slide">
 			<div class="caption">
@@ -44,7 +44,7 @@ HTML
 			<img src="images/slide-3.jpg" alt="slide-3" />
 		</div>
 	</div>
-	```
+```
 
 ## Options
 
