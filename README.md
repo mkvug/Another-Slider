@@ -7,43 +7,43 @@ Another Slider is a Yahoo Weather App inspired jQuery slider plugin. Unlike many
 Basic Setup
 	
 ```html
-	<!-- Add CSS inside the head of your document -->
-	<link rel="stylesheet" href="css/another-slider.min.css">
-	
-	<!-- Add Javascripts just before the closing body tag -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="js/another-slider.min.js"></script>
-	<script>
-		$(".slider").anotherSlider();
-	</script>
+<!-- Add CSS inside the head of your document -->
+<link rel="stylesheet" href="css/another-slider.min.css">
+
+<!-- Add Javascripts just before the closing body tag -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/another-slider.min.js"></script>
+<script>
+	$(".slider").anotherSlider();
+</script>
 ```
 
 HTML
 
 ```html
-	<div class="slider">
-		<div class="slide">
-			<div class="caption">
-				<h2><!-- Title --></h2>
-				<p><!-- Description --></p>
-			</div>
-			<img src="images/slide-1.jpg" alt="slide-1" />
+<div class="slider">
+	<div class="slide">
+		<div class="caption">
+			<h2><!-- Title --></h2>
+			<p><!-- Description --></p>
 		</div>
-		<div class="slide">
-			<div class="caption">
-				<h2><!-- Title --></h2>
-				<p><!-- Description --></p>
-			</div>
-			<img src="images/slide-2.jpg" alt="slide-2" />
-		</div>
-		<div class="slide">
-			<div class="caption">
-				<h2><!-- Title --></h2>
-				<p><!-- Description --></p>
-			</div>
-			<img src="images/slide-3.jpg" alt="slide-3" />
-		</div>
+		<img src="images/slide-1.jpg" alt="slide-1" />
 	</div>
+	<div class="slide">
+		<div class="caption">
+			<h2><!-- Title --></h2>
+			<p><!-- Description --></p>
+		</div>
+		<img src="images/slide-2.jpg" alt="slide-2" />
+	</div>
+	<div class="slide">
+		<div class="caption">
+			<h2><!-- Title --></h2>
+			<p><!-- Description --></p>
+		</div>
+		<img src="images/slide-3.jpg" alt="slide-3" />
+	</div>
+</div>
 ```
 
 ## Options
